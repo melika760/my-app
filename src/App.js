@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import SearchEngin from './SearchEngin';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hi it is Melika</p>
+      <h4>Weather Search Engin</h4>
+        <SearchEngin/>
       </header>
     </div>
   );
